@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Liberty County Department of Correction</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+
+<header>
+    <h1>Department of Correction Database</h1>
+</header>
+
+<nav>
+    <button onclick="showSection('warrants')">Mandats</button>
+    <button onclick="showSection('inmates')">Détenus</button>
+    <button onclick="showSection('pending')">En attente de jugement</button>
+    <button onclick="showSection('members')">Personnel</button>
+</nav>
+
+<main>
+
+<section id="warrants" class="active">
+    <h2>Mandats actifs</h2>
+    <p>Liste des mandats liés aux détenus.</p>
+    <a href="TON LIEN GOOGLE SHEET" target="_blank">Voir les mandats</a>
+</section>
+
+<section id="inmates">
+    <h2>Détenus</h2>
+    <p>Personnes actuellement incarcérées.</p>
+    <a href="TON LIEN GOOGLE SHEET" target="_blank">Voir les détenus</a>
+</section>
+
+<section id="pending">
+    <h2>En attente de jugement</h2>
+    <p>Individus en détention provisoire.</p>
+    <a href="TON LIEN GOOGLE SHEET" target="_blank">Voir la liste</a>
+</section>
+
+<section id="members">
+    <h2>Personnel</h2>
+    <ul>
+        <li>Juge (état de l'alabama) - Mr. Tintin</li>
+    </ul>
+</section>
+
+</main>
+
+<footer>
+    <p> DOC System</p>
+</footer>
+
+<script src="script5.js"></script>
+</body>
+</html>

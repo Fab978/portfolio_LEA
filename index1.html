@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>LCSO Database</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<header>
+    <h1>Liberty County Sheriff's Office</h1>
+</header>
+
+<nav>
+    <button onclick="showSection('investigation')">Enquêtes</button>
+    <button onclick="showSection('warrants')">Mandats</button>
+    <button onclick="showSection('archives')">Archives</button>
+    <button onclick="showSection('members')">Membres</button>
+    <button onclick="showSection('reports')">Rapports</button>
+</nav>
+
+<main>
+
+<section id="investigation" class="active">
+    <h2>Enquêtes en cours</h2>
+    <p>Liste des enquêtes actives.</p>
+    <p> Enquete #0010 "affaire du Juge Parker" <a href="Un lien" target="_blank">Consulter</a></p>
+    <a href="TON LIEN GOOGLE SHEET" target="_blank">Voir les enquêtes</a>
+</section>
+
+<section id="warrants">
+    <h2>Mandats en cours</h2>
+    <p>Mandats actifs et en attente.</p>
+    <a href="TON LIEN GOOGLE SHEET" target="_blank">Voir les mandats</a>
+</section>
+
+<section id="archives">
+    <h2>Archives</h2>
+    <p>Anciennes affaires et dossiers clos.</p>
+    <p> Manuel Protolaire du Sheriff <a href="https://docs.google.com/document/d/1q5jx0wQu6XMhinLkEU8tJU4-k2jvwGa7ZQvhC7WSbJg/edit?usp=sharing" target="_blank">Consulter</a></p>
+    <a href="TON LIEN GOOGLE SHEET" target="_blank">Consulter</a>
+</section>
+
+<section id="members">
+    <h2>Membres</h2>
+    <ul>
+        <li>Sheriff - Jake Johnson</li>
+        <li>Undersheriff - Johanathan Hollman</li>
+        <li>Commander - Bock Anderson - Chief of Detective Division and Metro Division</li>
+        <li>Captain - Schin Rich - Chief of Pursuit Unit</li>
+        <li>Lieutenant - Enzo Ferrarie</li>
+        <li>Sergeant - Steve Alpha</li>
+        <li>Sergeant - Sophie Rain</li>
+        <li>Deputy Rank 3 - William Afton</li>
+        <li>Deputy Rank 2 - Arthur Morgan</li>
+        <li>Deputy Rank 1 - Ray Vickers</li>
+        <li>Deputy Rank 1 - Luc Dubois</li>
+        <li>Deputy Rank 1 - Jack Smith</li>
+        <li>Deputy Rank 1 - Sofiane Malder</li>
+    </ul>
+</section>
+
+<section id="reports">
+    <h2>Rapports</h2>
+    <p>Rapports d’intervention et comptes rendus.</p>
+    <a href="TON LIEN GOOGLE SHEET" target="_blank">Accéder</a>
+</section>
+
+</main>
+
+<footer>
+    <p>LCSO Database</p>
+</footer>
+
+<script src="script1.js"></script>
+</body>
+</html>
