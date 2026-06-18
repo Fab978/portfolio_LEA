@@ -6,7 +6,7 @@ function login() {
     const accounts = [
         { user: "J.West", pass: "aqsdf01x" },
         { user: "H.Milk", pass: "fdA421s4" },
-        { user: "D.Morgan", pass: "Tydncf5" }
+        { user: "Trooper", pass: "Trooper" }
     ];
 
     const valid = accounts.find(acc => 
