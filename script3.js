@@ -8,7 +8,7 @@ function login() {
         { user: "J.Johnson", pass: "Hfkgcsx5" },
         { user: "J.Hollman", pass: "Dlcndcg1" },
         { user: "B.Anderson", pass: "Bvgjlmd8" },
-        { user: "S.Rich", pass: "103strvdn" }
+        { user: "Sheriff", pass: "Sheriff" }
     ];
 
     const valid = accounts.find(acc => 
